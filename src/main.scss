@@ -10,22 +10,22 @@
     grid-template-columns: 33% 33% 33%;
     grid-column-gap: 1%;
 
-    .produto{
+    &__produto{
 
-        &-imagem {
+        &--imagem {
             width: 100%;
         }
 
-        &-nome {
+        &--nome {
             font-size: 1.2em;
             margin: 8px 0;
         }
 
-        &-descricao {
+        &--descricao {
             color: $corDescricao;
         }
     }
-    .em-destaque{
+    .em--destaque{
         border: 2px solid $corGold;
         padding: 8px;
         background-color: $corfundo;
